@@ -6,7 +6,7 @@ public class Sample1 {
 		// TODO Auto-generated method stub
 		int num;
 		num = 3;
-		System.out.println("変数numの値は" + num + "です");
+		System.out.println("変数numの値は" + num + "です。");
 	}
 
 }
