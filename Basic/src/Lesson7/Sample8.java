@@ -1,0 +1,22 @@
+package Lesson7;
+
+public class Sample8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean b1 = false;
+		for(int i=0; i<5; i++) {
+			for(int j=0; j<5; j++) {
+				if(b1 == false) {
+					System.out.println("*");
+					b1 = true;
+				} else {
+					System.out.println("-");
+					b1 = false;
+				}
+			}
+			System.out.println("\n");
+		}
+	}
+
+}
