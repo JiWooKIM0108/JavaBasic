@@ -1,13 +1,13 @@
-package Lesson7;
+package Lesson6;
 
 import java.io.*;
 
-public class Sample4 {
+public class Sample3 {
 
 	public static void main(String[] args) throws IOException
 	{
 		// TODO Auto-generated method stub
-		System.out.println("いくつまでの合計を求めますか？");
+		System.out.println("いくつ*を出力しますか？");
 		
 		BufferedReader br =
 				new BufferedReader(new InputStreamReader(System.in));
@@ -15,11 +15,8 @@ public class Sample4 {
 		String str = br.readLine();
 		int num = Integer.parseInt(str);
 		
-		int sum = 0;
-		for(int i=1; i<=num; i++) {
-			sum += i;
-		}
-		System.out.println("1から" + num + "までの合計は" + sum + "です");
+		for(int i=1; i<=num; i++)
+			System.out.println("*");
 	}
 
 }
