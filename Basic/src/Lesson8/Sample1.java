@@ -1,3 +1,5 @@
+package Lesson8;
+
 //車クラス
 class Car
 {
