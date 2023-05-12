@@ -2,7 +2,7 @@ package Lesson9;
 
 //車クラス
 
-class Car
+class Car1
 {
 	int num;
 	double gas;
@@ -18,7 +18,7 @@ public class Sample1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Car car1 = new Car();
+		Car1 car1 = new Car1();
 		
 		car1.num = 1234;
 		car1.gas = 20.5;
