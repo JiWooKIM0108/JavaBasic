@@ -24,7 +24,7 @@ class Car6
 	public void show()
 	{
 		System.out.println("車のナンバーは"+num+"です");
-		System.out.println("ガソリン量は"+gas+"です");
+		System.out.println("ガソリン量は"+gas+"です.");
 	}
 }
 
