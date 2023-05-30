@@ -45,7 +45,11 @@ public class Sample8 {
 		Car8.showSum();
 		
 		Car8 car2 = new Car8();
+<<<<<<< HEAD
 		car2.setCar(4567, 30.5);
+=======
+		car1.setCar(4567, 30.5);
+>>>>>>> refs/remotes/origin/main
 		
 		Car8.showSum();
 	}
