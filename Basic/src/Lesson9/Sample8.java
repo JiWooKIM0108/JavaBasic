@@ -46,7 +46,7 @@ public class Sample8 {
 		
 		Car8 car2 = new Car8();
 
-		car2.setCar(4567, 30.6);
+		car2.setCar(4567, 30.5);
 	}
 
 }
