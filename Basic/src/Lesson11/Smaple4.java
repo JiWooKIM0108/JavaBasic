@@ -2,17 +2,17 @@ package Lesson11;
 
 //車クラス
 
-class Car4{
+class Car{
 	protected int num;
 	protected double gas;
 	
-	public Car4() 
+	public Car() 
 	{
 		num = 0;
 		gas = 0;
 		System.out.println("車を作成しました");
 	}
-	public void setCar4(int n, double g)
+	public void setCar(int n, double g)
 	{
 		num = n;
 		gas = g;
@@ -25,10 +25,10 @@ class Car4{
 	}
 }
 //レーシングカークラス
-class RacingCar4 extends Car4{
+class RacingCar extends Car{
 	private int course;
 	
-	public RacingCar4() 
+	public RacingCar() 
 	{
 		course = 0;
 		System.out.println("レーシングカーを作成しました");
@@ -47,10 +47,10 @@ public class Smaple4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		RacingCar4 rccar1;
-		rccar1 = new RacingCar4();
+		RacingCar rccar1;
+		rccar1 = new RacingCar();
 		
-		rccar1.setCar4(1234,20.5);
+		rccar1.setCar(1234,20.5);
 		rccar1.setCourse(5);
 		
 		rccar1.newShow();
