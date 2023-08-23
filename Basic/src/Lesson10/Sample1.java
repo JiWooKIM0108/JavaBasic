@@ -14,6 +14,7 @@ public class Sample1 {
 		System.out.println(str + "の１番目の文字は"+ch1+"です");
 		System.out.println(str + "の2番目の文字は"+ch2+"です.");
 		System.out.println(str+"の長さは"+len+"です.");
+		
 	}
 
 }
