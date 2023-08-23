@@ -3,7 +3,7 @@ package Lesson10;
 public class Sample1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 
 		String str = "Hello";
 		
 		char ch1 = str.charAt(0);
